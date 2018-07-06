@@ -16,7 +16,7 @@ This repository contains the machine learning algorithms implemented in Python 3
 7. Two Layer Neural Network (from scratch)
 8. Dimensionality Reduction
     - Feature Selection
-        _ Recursive Feature Elimination (RFE)
+        - Recursive Feature Elimination (RFE)
     - Feature Extraction
         - Principal Component Analysis (PCA)
         - Auto Encoder
