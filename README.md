@@ -22,9 +22,9 @@ This repository contains the machine learning algorithms implemented in Python 3
         - Auto Encoder
         
 
-##Steps for running
-'''
+## Steps for running
+```
 1. virtualenv .Classical-ML
 2. pip3 install -r requirements.txt
 3. python3 main.py
-'''
+```
