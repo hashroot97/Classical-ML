@@ -2,6 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from sklearn.datasets import make_blobs
 
+
 def initialize_clusters(k=5):
     clusters = {}
 
@@ -21,8 +22,10 @@ def initialize_clusters(k=5):
 
     return clusters
 
+
 def calc_distance(x1, x2):
     return np.sqrt(np.sum((x1 - x2)**2))
+
 
 def alloc_clusters(k=5):
     # Get the right cluster
@@ -38,7 +41,7 @@ def alloc_clusters(k=5):
 #     print(np.asarray(clusters[2]['points']).shape)
 #     print(np.asarray(clusters[3]['points']).shape)
 #     print(np.asarray(clusters[4]['points']).shape)
-    
+
     for kx in range(k):
         pts = np.asarray(clusters[kx]['points'])
         if pts.shape[0] > 0:
@@ -48,8 +51,7 @@ def alloc_clusters(k=5):
             new_center = clusters[kx]['center']
         clusters[kx]['points'] = pts
         clusters[kx]['center'] = new_center
-    
-    
+
     plt.figure(0)
 
     for kx in range(k):
@@ -65,7 +67,8 @@ def alloc_clusters(k=5):
 
         clusters[kx]['points'] = []
     plt.show()
-        
+
+
 data_X, data_Y = make_blobs(1000, 2, 5)
 print(data_X.shape, data_Y.shape)
 clusters = initialize_clusters()
