@@ -18,8 +18,8 @@ This repository contains the machine learning algorithms implemented in Python 3
     - Feature Selection
         _ Recursive Feature Elimination (RFE)
     - Feature Extraction
-        _ Principal Component Analysis (PCA)
-        _ Auto Encoder
+        - Principal Component Analysis (PCA)
+        - Auto Encoder
         
 
 ##Steps for running
