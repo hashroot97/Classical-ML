@@ -16,15 +16,22 @@ This repository contains the machine learning algorithms implemented in Python 3
 7. Two Layer Neural Network (from scratch)
 8. Dimensionality Reduction
     - Feature Selection
-        - Recursive Feature Elimination (RFE)
+        - Filter Methods
+            - Select K Best using Chi Squared Test
+            - Variance Threshold
+            - Information Gain
+        - Wrapper Methods
+            - Recursive Feature Elimination (RFE)
     - Feature Extraction
         - Principal Component Analysis (PCA)
         - Auto Encoder
-        
+        - t-SNE
+
 
 ## Steps for running
 ```
 1. virtualenv .Classical-ML
-2. pip3 install -r requirements.txt
-3. python3 main.py
+2. source .Classical-ML/bin/activate
+3. pip3 install -r requirements.txt
+4. python3 main.py
 ```
