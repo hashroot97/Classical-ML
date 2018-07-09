@@ -6,8 +6,8 @@ This repository contains the machine learning algorithms implemented in Python 3
 1. K-Nearest Neighbors (from scratch)
 2. K-Mean Clustering (from scratch)
 3. Regression Techniques
-    - Linear Regression (in Tensorflow)
-    - Logistic Regression (in Tensorflow)
+    - Linear Regression (in Tensorflow) (Univariate & Multivariate)
+    - Logistic Regression (in Tensorflow and from scratch)
 4. Decision Trees (from scratch)
 5. Support Vector Machines
     - Linear SVM
