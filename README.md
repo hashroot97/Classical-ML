@@ -3,17 +3,17 @@
 This repository contains the machine learning algorithms implemented in Python 3.5 from scratch :
 
 
-1. K-Nearest Neighbors (from scratch)
-2. K-Mean Clustering (from scratch)
+1. K-Nearest Neighbors
+2. K-Mean Clustering
 3. Regression Techniques
-    - Linear Regression (in Tensorflow and from scratch) (Univariate & Multivariate)
-    - Logistic Regression (in Tensorflow and from scratch)
-4. Decision Trees (from scratch)
+    - Linear Regression  (Univariate & Multivariate)
+    - Logistic Regression (Binary Class and Multi Class)
+4. Decision Trees 
 5. Support Vector Machines
     - Linear SVM
     - Multi-Class SVM
-6. Naive Bayes (Gaussian) (from scratch)
-7. Two Layer Neural Network (from scratch)
+6. Naive Bayes (Gaussian)
+7. Two Layer Neural Network
 8. Dimensionality Reduction
     - Feature Selection
         - Filter Methods
