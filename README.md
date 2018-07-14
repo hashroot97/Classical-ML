@@ -8,13 +8,17 @@ This repository contains the machine learning algorithms implemented in Python 3
 3. Regression Techniques
     - Linear Regression  (Univariate & Multivariate)
     - Logistic Regression (Binary Class and Multi Class)
-4. Decision Trees 
+4. Decision Trees
 5. Support Vector Machines
     - Linear SVM
     - Multi-Class SVM
 6. Naive Bayes (Gaussian)
 7. Two Layer Neural Network
-8. Dimensionality Reduction
+8. Similarities / Distance
+    - Jaccard Similarity
+    - Cosine Similarity
+    - Centered Cosine Similarity / Pearson Correlation
+9. Dimensionality Reduction
     - Feature Selection
         - Filter Methods
             - Select K Best using Chi Squared Test
