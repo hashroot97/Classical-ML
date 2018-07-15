@@ -18,7 +18,10 @@ This repository contains the machine learning algorithms implemented in Python 3
     - Jaccard Similarity
     - Cosine Similarity
     - Centered Cosine Similarity / Pearson Correlation
-9. Dimensionality Reduction
+9.  Recommender Systems
+    - Content Based
+    - Collaborative Filtering
+10. Dimensionality Reduction
     - Feature Selection
         - Filter Methods
             - Select K Best using Chi Squared Test
