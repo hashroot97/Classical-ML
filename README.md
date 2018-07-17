@@ -20,7 +20,10 @@ This repository contains the machine learning algorithms implemented in Python 3
     - Centered Cosine Similarity / Pearson Correlation
 9.  Recommender Systems
     - Content Based
+      - Using Linear Regression
     - Collaborative Filtering
+      - Memory Based using Pearson Similarity
+      - Model based using Linear Regression
 10. Dimensionality Reduction
     - Feature Selection
         - Filter Methods
