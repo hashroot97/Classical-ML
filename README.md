@@ -8,7 +8,7 @@ This repository contains the machine learning algorithms implemented in Python 3
 3. Regression Techniques
     - Linear Regression  (Univariate & Multivariate)
     - Logistic Regression (Binary Class and Multi Class)
-4. Decision Trees
+4. Decision Trees (CART using GINI impurity)
 5. Support Vector Machines
     - Linear SVM
     - Multi-Class SVM
